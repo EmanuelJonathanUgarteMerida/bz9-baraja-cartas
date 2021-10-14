@@ -37,6 +37,3 @@ class Carta:
     def __le__(self, otro):
         return self.valor <= otro.valor
 
-
-class Baraja:
-    pass
