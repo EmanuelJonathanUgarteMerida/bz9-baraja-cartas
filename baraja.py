@@ -13,6 +13,9 @@ class Carta:
     def __eq__(self, otro: object) -> bool:
         return self.valor == otro.valor
 
+    def __ne__(self, otro: object) -> bool:
+        return self.valor != otro.valor
+
     def __gt__(self, otro):
         return self.valor > otro.valor
 
